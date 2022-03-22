@@ -82,3 +82,18 @@ echo ADMIN_EMAIL;
 echo '<br>';
 echo LIST_COUNT;
 ?>
+
+<?php
+echo '<br>';
+echo '<br>';
+
+$country_1 = "America";
+$country_2 = "Jaran";
+$country_3 = "China";
+$country_4 = "Koria";
+
+echo $country_1;
+echo $country_2;
+echo $country_3;
+echo $country_4;
+?>
