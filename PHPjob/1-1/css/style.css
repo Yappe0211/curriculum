@@ -1,0 +1,61 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header {
+    background-color: #141f40;
+    width: 400px;
+    height: 100px;
+}
+.main {
+    height: 250px;
+}
+.green {
+    background-color: #80bfa8;
+    width: 150px;
+    height: 250px;
+    float: left;
+}
+.four {
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+.three {
+    width: 250px;
+    height: 150px;
+}
+.brown {
+    background-color: #8c2727;
+    width: 250px;
+    height: 100px;
+}
+.two {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.yellow {
+    background-color: #dbd400;
+    width: 150px;
+    height: 50px;
+}
+.blue {
+    background-color: #0093b7;
+    width: 150px;
+    height: 100px;
+}
+.orange {
+    background-color: #ff9e6b;
+    width: 100px;
+    height: 150px;
+    float: left;
+}
+
+.footer {
+    background-color: #d98d30;
+    width: 400px;
+    height: 100px;
+}
