@@ -1,13 +1,13 @@
 <?php
 $fruits = ["りんご", "みかん", "桃"];
-var_dump($fruits);
+//var_dump($fruits);
 
-echo '<br>';
+//echo '<br>';
 #step1
 foreach($fruits as $key => $value) {
-    echo $key;
-    echo $value;
-    echo '<br>';
+    //echo $key;
+    //echo $value;
+    //echo '<br>';
 }
 #step2
 function Total($price, $number) {
@@ -15,9 +15,9 @@ function Total($price, $number) {
     print $total."円です。";
     echo '<br>';
 }
-Total (150,2);
-Total (50,3);
-Total (500,6);
+//Total (150,2);
+//Total (50,3);
+//Total (500,6);
 
 #step3
 $fruits = ["りんご" => "は300円です。", "みかん" => "は150円です。", "桃" => "は3000円です。"];
