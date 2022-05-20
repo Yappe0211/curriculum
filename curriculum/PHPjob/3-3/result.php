@@ -1,13 +1,20 @@
 <?php
 $my_number = $_GET['my_number'];
-//$str = strlen($my_number);
 
-$my_number_list = array(
-    0,1,2,3,4,5,6,7,8,9
-);
+// print($my_number);
+// $str = $my_number;
+// print($str);
+$split = str_split($my_number,1);
+// print_r($split);
+// echo '<br>';
 
-$my_number = $my_number_list[mt_rand(0,9)];
+// var_dump($split);
 
+$my_number = array_rand($split, 1);
+echo '<br>';
+
+// print($my_number);
+$my_number = $split[$my_number];
 ?>
 
 <p><?php echo date("Y年m月d日", time()); ?>の運勢は</p>
