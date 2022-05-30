@@ -1,0 +1,21 @@
+body {
+    background-color: dimgray;
+}
+h1 {   
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    border-bottom: solid 2px white;
+}
+form .index {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+}
+h2 {
+    display: flex;
+}
