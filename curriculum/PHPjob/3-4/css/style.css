@@ -8,14 +8,16 @@ h1 {
     font-weight: normal;
     border-bottom: solid 2px white;
 }
-form .index {
+input {
+    margin: 5px;
+}
+p {
+    color: white;
     display: flex;
     justify-content: center;
 }
-
-p {
-    display: flex;
-}
 h2 {
+    color: white;
     display: flex;
+    justify-content: center;
 }
