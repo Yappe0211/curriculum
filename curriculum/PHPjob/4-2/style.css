@@ -1,0 +1,58 @@
+body {
+    width: 1000px;
+    height: 1000px;
+}
+.header {
+    display: flex;
+    justify-content: column;
+    width: 1000px;
+    height: 120px;
+}
+.logo {
+    display: flex;
+    background-color: #add8e6;
+    width: 200px;
+    height: 120px;
+    padding-right: 5px;
+}
+img {
+    margin-right: 10px;
+}
+.users {
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    background-color: #87ceeb;
+    width: 800px;
+    height: 60px;
+    text-align: right;
+    padding-top: 20px;
+}
+.login {
+    background-color: #00ffff;
+    width: 800px;
+    height: 60px;
+    text-align: right;
+    border: 20px;
+    padding-top: 20px;
+}
+
+table {
+    width: 800px;
+    margin: 10px auto;
+}
+table .title {
+    background-color: #87ceed;
+
+}
+table .content {
+    background-color: #e0ffff;
+}
+
+
+footer {
+    background-color: #00ced1;
+    width: 1000px;
+    height: 50px;
+}
