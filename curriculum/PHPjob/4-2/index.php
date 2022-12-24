@@ -1,7 +1,6 @@
 <?php
 session_start();
 require_once("getData.php");
-connect();
 $data=new getData();
 $user_data=$data->getUserData();
 $post_data=$data->getPostData();
